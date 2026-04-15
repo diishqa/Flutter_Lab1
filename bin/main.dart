@@ -72,7 +72,7 @@ void main() {
       print("Zadacha delete");
     }
 
-    bool handleCommand(TodoRepository repo, String input) {
+    bool handleCommnd(TodoRepository repo, String input) {
       List<String> parts = input.split(" ");
       String command = parts[0].toLowerCase();
       try {
